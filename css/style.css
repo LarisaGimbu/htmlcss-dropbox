@@ -216,12 +216,12 @@ nav{
   padding-top: 100px;
 }
 
-/* bottom main  */
-.bottom-main{
+/* FOOTER  */
+.top-footer{
   margin-bottom: 100px;
 }
 
-.bottom-main h3{
+.top-footer h3{
   margin-top: 100px;
   padding-bottom: 30px;
   border-bottom: 1px solid grey;
@@ -238,5 +238,34 @@ nav{
 
 .question-row p{
   color: grey;
+}
+
+.bottom-footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.bottom-footer ul{
+  display: inline-block;
+  margin: 50px 50px;
+}
+
+.bottom-footer ul:first-child{
+  margin-left: 150px;
+}
+
+.bottom-footer li{
+  list-style: none;
+}
+
+.bottom-footer h4{
+  padding-bottom: 10px;
+}
+
+.bottom-footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
 }
 
