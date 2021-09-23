@@ -33,6 +33,26 @@ h1, h2, h3, h4{
   font-family: 'Open Sans', sans-serif;
 }
 
+.box{
+  float: left;
+  display: inline-block;
+  width: calc(90% / 3);
+  margin-right: 5%;
+  margin-top: 20px;
+  background-color: red;
+}
+
+.singolo, .team{
+  border: 1px solid grey;
+  text-align: center;
+  padding: 5px;
+}
+
+.box:last-child{
+  margin-right: 0;
+}
+
+
 /**** HEADER  ****/
 nav{
   position: fixed;
@@ -90,22 +110,46 @@ nav{
   margin-right: 10px;
 }
 
-.piano-box{
-  float: left;
-  display: inline-block;
-  width: calc(90% / 3);
-  margin: 3% 5% 0 0;
+.piano{
   height: 500px;
-  background-color: red;
 }
 
-.piano-box:last-child{
-  margin-right: 0;
+/* enterprise */
+.enterprise{
+  margin-top: 20px;
 }
 
-.singolo, .team{
+.enterprise-content{
   border: 1px solid grey;
-  text-align: center;
-  padding: 5px;
+  border-top: 0;
 }
 
+/* partner */
+.partner{
+  margin-top: 100px;
+}
+.partner .float-left img{
+  width: 50%;
+}
+
+/* operazioni */
+.operazioni{
+  margin-top: 50px;
+}
+
+.row .box{
+  height: 250px;
+}
+
+/* utilizzatori */
+.utilizzatori{
+  margin-top: 150px;
+}
+
+.utilizzatori h2{
+  width: 50%;
+}
+
+.utilizzatori p{
+  margin: 20px 0;
+}
