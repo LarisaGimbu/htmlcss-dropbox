@@ -52,6 +52,13 @@ h1, h2, h3, h4{
   margin-right: 0;
 }
 
+.square{
+  float: left;
+  /* display: inline-block; */
+  width: 200px;
+  height: 200px;
+}
+
 
 /**** HEADER  ****/
 nav{
@@ -155,10 +162,46 @@ nav{
 }
 
 /* partner-description */
+.partner-description{
+  background-color: #F5F5F5;
+}
+
+.squarebox-left{
+  float: left;
+}
+
+.container-partner-description{
+  float: left;
+  padding: 30px 0 30px 30px;
+  width: 450px; 
+}
+
+.squarebox-left{
+  float: left;
+}
+
+.squarebox-right{
+  float: right;
+}
+
 .designit{
-  width: 200px;
-  height: 200px;
   background-color: #A2D39B;
 }
 
+.arizona{
+  background-color: #61082C;
+}
+
+.university{
+  background-color: #1D93CE;
+}
+
+.toppes{
+  background-color: #F91C1D;
+}
+
+.container-partner-description img{
+  width: 150px;
+  padding: 30px 0 20px 0;
+}
 
