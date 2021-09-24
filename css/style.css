@@ -302,6 +302,29 @@ nav .float-right .btn{
   width: 50%;
 }
 
+.partner .float-right{
+  width: 40%;
+}
+
+.partner h3{
+  margin: 20px 0;
+}
+
+.partner p{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.btn.white{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn.white:hover{
+  background-color: #F5F6F5;
+}
+
 /* operazioni */
 .operazioni{
   margin-top: 50px;
