@@ -53,8 +53,17 @@ h4{
   padding: 5px 15px;
 }
 
+.btn.white{
+  background-color: white;
+  color: black;
+}
+
 .btn:hover{
   background-color: #3A85FF;
+}
+
+.btn.white:hover{
+  background-color: #F5F6F5;
 }
 
 .box{
@@ -310,14 +319,8 @@ nav .float-right .btn{
   margin-bottom: 20px;
 }
 
-.btn.white{
-  background-color: white;
-  color: black;
+.partner .btn{
   border: 1px solid black;
-}
-
-.btn.white:hover{
-  background-color: #F5F6F5;
 }
 
 /* operazioni */
@@ -433,7 +436,17 @@ nav .float-right .btn{
 }
 
 .prova-gratuita h2, .prova-gratuita a{
-  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.prova-gratuita h2{
+  width: 50%;
+  color: #61082C;
+}
+
+.prova-gratuita a{
+  border: none;
+  padding: 5px 40px;
 }
 
 /* FOOTER  */
