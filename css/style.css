@@ -15,6 +15,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  color: #0061FF;
+}
+
 /* utility */
 .float-left{
   float: left;
@@ -253,10 +257,6 @@ nav .float-right .btn{
   font-size: 11px;
 }
 
-.acquista-ora{
-  color: #136DFF;
-}
-
 .line{
   color: #D0D0D3;
 }
@@ -345,15 +345,15 @@ nav .float-right .btn{
 
 /* utilizzatori */
 .utilizzatori{
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .utilizzatori h2{
-  width: 50%;
+  width: 60%;
 }
 
 .utilizzatori p{
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 /* partner-description */
@@ -463,4 +463,5 @@ nav .float-right .btn{
   color: white;
   font-size: 10px;
 }
+
 
