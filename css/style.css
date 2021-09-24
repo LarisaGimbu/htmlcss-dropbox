@@ -486,13 +486,14 @@ nav .float-right .btn{
   color: white;
 }
 
-.bottom-footer ul{
-  display: inline-block;
-  margin: 50px 50px;
+.footer-containter{
+  width: 80%;
+  margin: 0 auto;
 }
 
-.bottom-footer ul:first-child{
-  margin-left: 150px;
+.bottom-footer ul{
+  display: inline-block;
+  margin: 50px 95px 50px 0;
 }
 
 .bottom-footer li{
@@ -507,6 +508,12 @@ nav .float-right .btn{
   text-decoration: none;
   color: white;
   font-size: 10px;
+}
+
+.language{
+  font-size: 10px;
+  padding: 10px 0 20px 0;
+
 }
 
 
