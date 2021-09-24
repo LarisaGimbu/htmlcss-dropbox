@@ -103,10 +103,9 @@ h4{
   color: #637381;
 }
 
-.square{
-  float: left;
-  width: 200px;
-  height: 200px;
+
+.line{
+  color: #D0D0D3;
 }
 
 
@@ -257,10 +256,6 @@ nav .float-right .btn{
   font-size: 11px;
 }
 
-.line{
-  color: #D0D0D3;
-}
-
 .box-content h4{
   margin: 15px 0;
 }
@@ -359,24 +354,43 @@ nav .float-right .btn{
 /* partner-description */
 .partner-description{
   background-color: #F5F5F5;
+  width: 100%;
+  height: 60vh;
 }
 
-.squarebox-left{
+.partner-description .float-right, .partner-description .float-left{
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.partner-description .row{
+  width: 100%;
+  height: 50%;
+}
+
+.square{
   float: left;
+  width: 50%;
+  height: 100%;
 }
 
 .container-partner-description{
-  float: left;
-  padding: 30px 0 30px 30px;
-  width: 450px; 
+  width: calc(100% / 3); 
 }
 
-.squarebox-left{
-  float: left;
+.container-partner-description .content{
+  width: 85%;
+  margin: 0 auto;
 }
 
-.squarebox-right{
-  float: right;
+.container-partner-description img{
+  width: 30%;
+  padding-top: 30px;
+}
+
+.container-partner-description p{
+  font-size: 12px;
+  margin: 20px 0;
 }
 
 .designit{
@@ -395,9 +409,20 @@ nav .float-right .btn{
   background-color: #F91C1D;
 }
 
-.container-partner-description img{
-  width: 150px;
-  padding: 30px 0 20px 0;
+.world-bicycle{
+  background-color: #D5021F;
+}
+
+.hearst{
+  background-color: #B4D0E7;
+}
+
+.lonely{
+  background-color: #0D2481;
+}
+
+.clear{
+  background-color: #FED830;
 }
 
 /* prova-gratuita */
