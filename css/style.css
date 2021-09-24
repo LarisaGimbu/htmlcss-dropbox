@@ -33,6 +33,10 @@ h1, h2, h3, h4{
   font-family: 'Open Sans', sans-serif;
 }
 
+h2{
+  font-size: 30px;
+}
+
 .btn{
   text-decoration: none;
   color: white;
@@ -49,19 +53,46 @@ h1, h2, h3, h4{
   float: left;
   display: inline-block;
   width: calc(90% / 3);
-  margin-right: 5%;
+  margin-right: 3%;
   margin-top: 20px;
-  background-color: red;
+  height: 800px;
 }
 
 .singolo, .team{
-  border: 1px solid grey;
+  border-bottom: 1px solid #D0D0D3;
   text-align: center;
   padding: 5px;
+  font-size: 13px;
+}
+
+.singolo::before{
+  font-family: "Font Awesome 5 Free"; 
+  content: "\f007";
+  margin-right: 5px;
+}
+
+.team::before{
+  font-family: "Font Awesome 5 Free"; 
+  content: "\f1ad";
+  color: black;
+  margin-right: 5px;
 }
 
 .box:last-child{
   margin-right: 0;
+}
+
+.cost, .property{
+  font-size: 12px;
+}
+
+.cost{
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.property{
+  color: #637381;
 }
 
 .square{
@@ -148,7 +179,11 @@ nav .float-right .btn{
 
 .anulla{
   font-size: 10px;
-  padding: 10px 0 50px 0;
+  padding: 10px 0 30px 0;
+}
+
+.fa-arrow-down{
+  font-size: 30px;
 }
 
 .float-right img{
@@ -159,7 +194,6 @@ nav .float-right .btn{
 /**** MAIN  ****/
 .piano-dropbox h2{
   margin-top: 150px;
-  font-size: 30px;
 }
 
 .rb{
@@ -175,9 +209,66 @@ nav .float-right .btn{
   margin-right: 10px;
 }
 
-.piano{
-  height: 500px;
+.box-content{
+  width: 85%;
+  margin: 0 auto;
 }
+
+.piano.box{
+  border: 1px solid #D0D0D3;
+}
+
+.box-content h3{
+  margin-top: 20px;
+}
+
+.box-content ul{
+  margin: 20px 0 30px 0;
+}
+
+.box-content ul li{
+  list-style: none;
+  padding-top: 20px;
+  font-size: 11px;
+}
+
+.first-list ul li{
+  padding-left: 12px;
+}
+
+.first-list ul li i{
+  margin-left: -12px;
+}
+
+.box-content .btn{
+  padding: 5px 33px;
+}
+
+.buy-now{
+  margin: 20px 0 10px 0;
+  font-size: 11px;
+}
+
+.acquista-ora{
+  color: #136DFF;
+}
+
+.line{
+  color: #D0D0D3;
+}
+
+.box-content h4{
+  margin: 20px 0;
+}
+
+.second-list ul li::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  content: "\f00c";
+  color: #0061FF;
+  margin-right: 5px;
+}
+
 
 /* enterprise */
 .enterprise{
