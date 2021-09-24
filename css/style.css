@@ -37,6 +37,10 @@ h2{
   font-size: 30px;
 }
 
+h4{
+  font-size: 13px;
+}
+
 .btn{
   text-decoration: none;
   color: white;
@@ -53,7 +57,7 @@ h2{
   float: left;
   display: inline-block;
   width: calc(90% / 3);
-  margin-right: 3%;
+  margin-right: 5%;
   margin-top: 20px;
   height: 800px;
 }
@@ -258,7 +262,7 @@ nav .float-right .btn{
 }
 
 .box-content h4{
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .second-list ul li::before{
@@ -273,11 +277,21 @@ nav .float-right .btn{
 /* enterprise */
 .enterprise{
   margin-top: 20px;
+  border: 1px solid #D0D0D3;
 }
 
-.enterprise-content{
-  border: 1px solid grey;
-  border-top: 0;
+.enterprise .box-content .float-left{
+  margin-left: -40px;
+}
+
+.enterprise-content p{
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.enterprise .float-right{
+  margin-top: 20px;
+  margin-right: -40px;
 }
 
 /* partner */
