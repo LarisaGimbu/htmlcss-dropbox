@@ -117,7 +117,6 @@ nav ul li a:hover{
   border-bottom: 1.5px solid black;
 }
 
-
 nav .float-right .btn{
   margin: 0 20px;
 }
@@ -143,8 +142,13 @@ nav .float-right .btn{
 
 .jumbo-container .description{
   width: 320px;
-  margin-top: 30px;
+  margin: 30px 0;
   font-size: 13px;
+}
+
+.anulla{
+  font-size: 10px;
+  padding: 10px 0 50px 0;
 }
 
 .float-right img{
