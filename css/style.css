@@ -331,7 +331,16 @@ nav .float-right .btn{
 }
 
 .row .box{
-  height: 250px;
+  height: 450px;
+}
+
+.operazioni img{
+  width: 100%;
+}
+
+.operazioni p{
+  font-size: 13px;
+  margin-top: 15px;
 }
 
 /* utilizzatori */
