@@ -355,6 +355,10 @@ nav .float-right .btn{
   padding-top: 15px;
 }
 
+.operazioni span{
+  text-decoration: underline;
+}
+
 /* utilizzatori */
 .utilizzatori{
   padding-top: 80px;
@@ -500,9 +504,31 @@ svg{
 }
 
 .question-row p{
+  display: none;
   color: #637381;
   font-size: 12px;
   width: 90%;
+}
+
+i.fa-chevron-up{
+  display: none;
+}
+
+.question-row:hover{
+  cursor: pointer;
+}
+
+.question-row:hover i.fa-chevron-up{
+  display: block;
+}
+
+.question-row:hover i.fa-chevron-down{
+  display: none;
+}
+
+
+.question-row:hover p{
+  display: inline-block;
 }
 
 .question-row .float-right{
