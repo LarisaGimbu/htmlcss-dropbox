@@ -19,6 +19,10 @@ a{
   color: #0061FF;
 }
 
+a:hover{
+  color: #0D2481;
+}
+
 /* utility */
 .float-left{
   float: left;
@@ -72,7 +76,7 @@ h4{
   width: calc(90% / 3);
   margin-right: 5%;
   margin-top: 20px;
-  height: 800px;
+  min-height: 800px;
 }
 
 .singolo, .team{
@@ -125,6 +129,7 @@ header{
   left: 0;
   width: 100%;
   height: 60px;
+  border-bottom: 1px solid #D0D0D3;
 }
 
 nav{
@@ -188,7 +193,7 @@ nav .float-right .btn{
 }
 
 .jumbo-container .description{
-  width: 320px;
+  width: 25vw;
   margin: 30px 0;
   font-size: 13px;
 }
@@ -203,7 +208,7 @@ nav .float-right .btn{
 }
 
 .float-right img{
-  width: 620px;
+  width: 48vw;
   margin-top: 30px;
 }
 
@@ -325,25 +330,29 @@ nav .float-right .btn{
 
 /* operazioni */
 .operazioni{
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .row .box{
-  height: 450px;
+  min-height: 450px;
 }
 
 .operazioni img{
   width: 100%;
 }
 
+.operazioni h3{
+  font-size: 1.5vw;
+}
+
 .operazioni p{
-  font-size: 13px;
-  margin-top: 15px;
+  font-size: 1vw;
+  padding-top: 15px;
 }
 
 /* utilizzatori */
 .utilizzatori{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .utilizzatori h2{
@@ -351,7 +360,7 @@ nav .float-right .btn{
 }
 
 .utilizzatori p{
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 /* partner-description */
@@ -372,13 +381,19 @@ nav .float-right .btn{
 }
 
 .square{
+  position: relative;
   float: left;
   width: 50%;
   height: 100%;
 }
 
+.square.active{
+  border: 8px solid #ffffff80;
+}
+
 .container-partner-description{
   width: calc(100% / 3); 
+  overflow: auto;
 }
 
 .container-partner-description .content{
@@ -394,6 +409,15 @@ nav .float-right .btn{
 .container-partner-description p{
   font-size: 12px;
   margin: 20px 0;
+}
+
+svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  filter: invert(1);
 }
 
 .designit{
@@ -457,12 +481,12 @@ nav .float-right .btn{
 .top-footer h3{
   margin-top: 100px;
   padding-bottom: 30px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D0D0D3;
 }
 
 .question-row{
   padding: 20px 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D0D0D3;
 }
 
 .question-row h4{
@@ -471,7 +495,7 @@ nav .float-right .btn{
 }
 
 .question-row p{
-  color: grey;
+  color: #637381;
   font-size: 12px;
   width: 90%;
 }
@@ -489,11 +513,12 @@ nav .float-right .btn{
 .footer-containter{
   width: 80%;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 .bottom-footer ul{
   display: inline-block;
-  margin: 50px 95px 50px 0;
+  margin: 6% 9% 6% 0;
 }
 
 .bottom-footer li{
@@ -510,10 +535,13 @@ nav .float-right .btn{
   font-size: 10px;
 }
 
+.bottom-footer a:hover{
+  text-decoration: underline;
+}
+
 .language{
   font-size: 10px;
   padding: 10px 0 20px 0;
-
 }
 
 
