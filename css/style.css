@@ -209,16 +209,16 @@ nav .float-right .btn{
 
 .float-right img{
   width: 48vw;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 /**** MAIN  ****/
 .piano-dropbox h2{
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 .rb{
-  margin-top: 30px;
+  padding-top: 30px;
   font-size: 10px;
 }
 
@@ -227,7 +227,7 @@ nav .float-right .btn{
 }
 
 .rb label{
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .box-content{
@@ -240,11 +240,11 @@ nav .float-right .btn{
 }
 
 .box-content h3{
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .box-content ul{
-  margin: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 .box-content ul li{
@@ -266,12 +266,16 @@ nav .float-right .btn{
 }
 
 .buy-now{
-  margin: 20px 0 10px 0;
+  padding: 20px 0 10px 0;
   font-size: 11px;
 }
 
 .box-content h4{
-  margin: 15px 0;
+  padding: 15px 0;
+}
+
+.second-list ul li{
+  padding-left: 12px;
 }
 
 .second-list ul li::before{
@@ -279,7 +283,7 @@ nav .float-right .btn{
   font-weight: 900;
   content: "\f00c";
   color: #0061FF;
-  margin-right: 5px;
+  margin-left: -12px;
 }
 
 
@@ -334,7 +338,8 @@ nav .float-right .btn{
 }
 
 .row .box{
-  min-height: 450px;
+  min-height: 60%;
+  padding-top: 50px;
 }
 
 .operazioni img{
@@ -513,7 +518,7 @@ svg{
 .footer-containter{
   width: 80%;
   margin: 0 auto;
-  padding-left: 20px;
+  padding-left: 55px;
 }
 
 .bottom-footer ul{
