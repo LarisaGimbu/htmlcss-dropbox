@@ -174,34 +174,51 @@ nav .float-right .btn{
   margin: 0 20px;
 }
 
-.supporto-text{
+.details{
   display: none;
-  position:  absolute;
-  bottom: -70px;
-  right: 280px;
   background-color: #FAFAFA;
   padding: 10px 20px 15px 20px;
 }
 
-.supporto-text ul li{
+.supporto-text{
+  position:  absolute;
+  bottom: -70px;
+  right: 280px;
+}
+
+.contatta-text{
+  position:  absolute;
+  bottom: -70px;
+  right: 188px;
+}
+
+.accedi-text{
+  position:  absolute;
+  bottom: -70px;
+  right: 50px;
+}
+
+.details ul li{
   display: block;
   list-style: none;
 }
 
-.supporto-text ul li a{
+.details ul li a{
   text-decoration: none;
   font-size: 10px;
   color: black;
 }
 
-.supporto-text ul li a:hover{
+.details ul li a:hover{
   text-decoration: underline;
   border-bottom: none;
 }
 
-.supporto:hover .supporto-text{
+.more:hover .details{
   display: block;
 }
+
+
 
 /* JUMBOTRON  */
 .jumbotron{
@@ -242,7 +259,7 @@ nav .float-right .btn{
 }
 
 /**** MAIN  ****/
-.piano-dropbox h2{
+#piani-prezzi h2{
   padding-top: 150px;
 }
 
